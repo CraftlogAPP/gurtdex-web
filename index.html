@@ -372,6 +372,15 @@
       .wall-in { left: -30%; top: -20%; width: 170%; opacity: .42; }
     }
     @media (max-width: 480px) { .col { width: 128px; } .wall-in { gap: 18px; } }
+
+    /* Kopf „gurtdex“: phones=center, wall=steep, speed=1, frame=dark (looks.js) */
+    .shots .phone.a { left: 50%; top: 10px; translate: -38% 0; }
+    .shots .phone.b { right: auto; left: 0; top: 70px; transform: rotate(-9deg) scale(.82); transform-origin: 50% 100%; opacity: .75; }
+    @media (max-width: 900px) { .shots .phone.b { top: 40px; } }
+    .wall-in { top: -48%; left: 30%; height: 210%; transform: perspective(2400px) rotateX(8deg) rotateZ(-27deg); }
+    @media (max-width: 900px) { .wall-in { left: -30%; top: -30%; width: 170%; opacity: .42; } }
+    .track { animation-duration: calc(var(--d) * 1); }
+    .mp { border-radius: 22px; } .mp::before { border-radius: 17px 17px 0 0; } .mp img { border-radius: 0 0 17px 17px; }
   </style>
   <script>document.documentElement.classList.add('js')</script>
 </head>
