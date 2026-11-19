@@ -24,7 +24,7 @@
   <meta name="twitter:image" content="https://gurtdex.dexware.app/og-image.png" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"GurtDex","url":"https://gurtdex.dexware.app/","description":"PSA gegen Absturz (PSAgA) nach DGUV Regel 112-198/112-199, DGUV Grundsatz 312-906 und EN 365 prüfen und lückenlos dokumentieren: PSA-Inventar mit Ablegereife-Wächter, geführte Checklisten-Prüfung, Ampelverfahren, PDF-Prüfbericht mit GPS-Stempel und Fotos. Für Gerüstbauer, Dachdecker, Zimmerer, Industriekletterer, SiFa und Bauhöfe.","operatingSystem":"Android","applicationCategory":"BusinessApplication","image":"https://gurtdex.dexware.app/og-image.png","inLanguage":"de","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR","description":"Kostenlos starten, Pro-Abo in der App"},"publisher":{"@type":"Organization","name":"Dexware","url":"https://dexware.app/"}}</script>
   <!-- seo:end -->
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wer darf die jährliche PSAgA-Prüfung durchführen?","acceptedAnswer":{"@type":"Answer","text":"Ein Sachkundiger für PSA gegen Absturz, typischerweise ausgebildet nach DGUV Grundsatz 312-906. GurtDex ersetzt die Sachkunde nicht. Es führt durch die Prüfung und erzeugt den lückenlosen Nachweis."}},{"@type":"Question","name":"Was heißt „ablegereif\"?","acceptedAnswer":{"@type":"Answer","text":"Ein Artikel darf nicht mehr benutzt werden: wegen Beschädigung, nach einer Sturzbelastung oder weil die Gebrauchsdauer laut Hersteller erreicht ist (textil typisch 6–10 Jahre). GurtDex markiert ablegereife Artikel rot und dokumentiert die Aussonderung."}},{"@type":"Question","name":"Funktioniert GurtDex auch für mein Team?","acceptedAnswer":{"@type":"Answer","text":"Ja. Der Chef lädt Mitarbeiter per Betriebscode ein, alle dokumentieren unter einem Betrieb, jede Prüfung zeigt den Prüfer."}},{"@type":"Question","name":"Gibt es GurtDex auch am PC?","acceptedAnswer":{"@type":"Answer","text":"Ja, im Dexware-Dashboard siehst du Standorte, Prüfungen, Ablegereife und Prüfberichte im Browser."}},{"@type":"Question","name":"Wo liegen meine Daten?","acceptedAnswer":{"@type":"Answer","text":"In einem EU-Rechenzentrum in Frankfurt. Keine Werbung, kein Tracking, kein Datenverkauf — Details in der Datenschutzerklärung."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wer darf die jährliche PSAgA-Prüfung durchführen?","acceptedAnswer":{"@type":"Answer","text":"Ein Sachkundiger für PSA gegen Absturz, typischerweise ausgebildet nach DGUV Grundsatz 312-906. GurtDex ersetzt die Sachkunde nicht. Es führt durch die Prüfung und erzeugt den lückenlosen Nachweis."}},{"@type":"Question","name":"Was heißt „ablegereif\"?","acceptedAnswer":{"@type":"Answer","text":"Ein Artikel darf nicht mehr benutzt werden: wegen Beschädigung, nach einer Sturzbelastung oder weil die Gebrauchsdauer laut Hersteller erreicht ist (bei textilen Teilen häufig 6–10 Jahre, maßgeblich ist die Herstellerangabe). GurtDex markiert ablegereife Artikel rot und dokumentiert die Aussonderung."}},{"@type":"Question","name":"Funktioniert GurtDex auch für mein Team?","acceptedAnswer":{"@type":"Answer","text":"Ja. Der Chef lädt Mitarbeiter per Betriebscode ein, alle dokumentieren unter einem Betrieb, jede Prüfung zeigt den Prüfer."}},{"@type":"Question","name":"Gibt es GurtDex auch am PC?","acceptedAnswer":{"@type":"Answer","text":"Ja, im Dexware-Dashboard siehst du Standorte, Prüfungen, Ablegereife und Prüfberichte im Browser."}},{"@type":"Question","name":"Wo liegen meine Daten?","acceptedAnswer":{"@type":"Answer","text":"In einem EU-Rechenzentrum in Frankfurt. Keine Werbung, kein Tracking, kein Datenverkauf — Details in der Datenschutzerklärung."}}]}</script>
   <link rel="preload" href="assets/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin />
   <style>
     @font-face { font-family: 'Inter'; src: url('assets/inter-latin-var.woff2') format('woff2');
@@ -447,9 +447,14 @@
     @media (max-width: 400px) {
       .ios-tab { display: flex; }
       .ipw-visual { height: 420px; }
-      .ipw.tall .ipw-visual { height: 470px; }
+      .ipw.tall .ipw-visual { height: 484px; }
       .ipw-visual .phone.a { --pw: 186px; } .ipw-visual .phone.b { --pw: 160px; }
       .ipw-home { left: 12%; }
+    }
+    /* Schmale Handys (360 px): beide Bildschirme nebeneinander, ohne dass der vordere den hinteren verdeckt. */
+    @media (max-width: 374px) {
+      .ipw.tall .ipw-visual { height: 462px; }
+      .ipw-visual .phone.a { --pw: 172px; } .ipw-visual .phone.b { --pw: 150px; }
     }
   </style>
   <script>document.documentElement.classList.add('js')</script>
@@ -491,7 +496,7 @@
         <div class="rv">
           <p class="eyebrow">Rechtsgrundlage</p>
           <h2>Was die Vorschriften verlangen</h2>
-          <p class="lead">Passiert etwas, fragen BG, Versicherung und Gericht zuerst nach dem Prüfnachweis <strong>genau dieses Gurts</strong>. Grundlage: BetrSichV, PSA-Benutzungsverordnung, DGUV Regeln 112-198 und 112-199, DGUV Grundsatz 312-906 und EN 365.</p>
+          <p class="lead">Passiert etwas, fragen BG, Versicherung und Gericht zuerst nach dem Prüfnachweis <strong>genau dieses Gurts</strong>. Grundlage: PSA-Benutzungsverordnung, DGUV Vorschrift 1, DGUV Regeln 112-198 und 112-199, DGUV Grundsatz 312-906 und EN 365.</p>
         </div>
         <ul class="rules rv">
           <li><span class="ic"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" /></svg></span><span><b>Regelmäßig prüfen</b>Mindestens alle 12 Monate durch einen Sachkundigen.</span></li>
@@ -526,12 +531,12 @@
           <ol class="ipw-steps">
             <li><span><b>Im Browser öffnen</b> und anmelden — oder kostenlos ein Konto anlegen.</span></li>
             <li><span><b>„Teilen“ → „Zum Home-Bildschirm“</b> antippen.</span></li>
-            <li><span><b>Fertig:</b> GurtDex liegt wie eine App auf deinem Startbildschirm.</span></li>
+            <li><span><b>Fertig:</b> GurtDex liegt wie eine App auf deinem Home-Bildschirm.</span></li>
           </ol>
           <div class="cta"><a class="btn" href="https://dashboard.dexware.app/app/gurtdex/vor-ort" target="_blank" rel="noopener">Im Browser öffnen</a></div>
           <p class="fine">Gut zu wissen: Im Funkloch bleiben deine Eingaben auf dem Gerät und werden gesendet, sobald wieder Netz da ist. QR-Scan, Erinnerungen und einige Extras gibt es vorerst nur in der Android-App. Es gelten dieselben Gratis-Grenzen wie in der App.</p>
           <div class="ipw-buy">
-            <div class="ipw-buy-head"><b>GurtDex Pro direkt im Browser kaufen</b><small>Ohne App-Store — Karte oder PayPal, Preise inkl. USt.</small></div>
+            <div class="ipw-buy-head"><b>GurtDex Pro direkt im Browser kaufen</b><small>Ohne App Store — Karte oder PayPal, Preise inkl. MwSt.</small></div>
             <div class="ipw-plans"><div><span>Jährlich</span><b>79,99 €</b><small>pro Jahr</small></div><div><span>Monatlich</span><b>9,99 €</b><small>pro Monat</small></div></div>
             <span class="btn off" aria-disabled="true">In Kürze verfügbar</span>
             <p>14 Tage Geld zurück · jederzeit kündbar · Verkäufer und Zahlungsabwicklung: Paddle. Der Tarif gilt für dein Konto — im Browser und später in der App. Bis dahin gibt es Pro in der Android-App.</p>
@@ -618,7 +623,7 @@
         </div>
         <div class="rv">
           <details><summary>Wer darf die jährliche PSAgA-Prüfung durchführen?<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary><div class="a">Ein Sachkundiger für PSA gegen Absturz, typischerweise ausgebildet nach DGUV Grundsatz 312-906. GurtDex ersetzt die Sachkunde nicht. Es führt durch die Prüfung und erzeugt den lückenlosen Nachweis.</div></details>
-          <details><summary>Was heißt „ablegereif"?<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary><div class="a">Ein Artikel darf nicht mehr benutzt werden: wegen Beschädigung, nach einer Sturzbelastung oder weil die Gebrauchsdauer laut Hersteller erreicht ist (textil typisch 6–10 Jahre). GurtDex markiert ablegereife Artikel rot und dokumentiert die Aussonderung.</div></details>
+          <details><summary>Was heißt „ablegereif"?<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary><div class="a">Ein Artikel darf nicht mehr benutzt werden: wegen Beschädigung, nach einer Sturzbelastung oder weil die Gebrauchsdauer laut Hersteller erreicht ist (bei textilen Teilen häufig 6–10 Jahre, maßgeblich ist die Herstellerangabe). GurtDex markiert ablegereife Artikel rot und dokumentiert die Aussonderung.</div></details>
           <details><summary>Funktioniert GurtDex auch für mein Team?<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary><div class="a">Ja. Der Chef lädt Mitarbeiter per Betriebscode ein, alle dokumentieren unter einem Betrieb, jede Prüfung zeigt den Prüfer.</div></details>
           <details><summary>Gibt es GurtDex auch am PC?<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary><div class="a">Ja, im <a href="https://dashboard.dexware.app/app/gurtdex">Dexware-Dashboard</a> siehst du Standorte, Prüfungen, Ablegereife und Prüfberichte im Browser.</div></details>
           <details><summary>Wo liegen meine Daten?<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary><div class="a">In einem EU-Rechenzentrum in Frankfurt. Keine Werbung, kein Tracking, kein Datenverkauf — Details in der <a href="datenschutz.html">Datenschutzerklärung</a>.</div></details>
