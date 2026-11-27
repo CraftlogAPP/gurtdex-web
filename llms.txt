@@ -1,0 +1,68 @@
+# GurtDex
+
+> GurtDex ist eine App von Dexware. Software für die Auffanggurt-Prüfung: PSA gegen Absturz nach DGUV G 312-906 prüfen, Ablegereife je Seriennummer im Blick, Prüfbericht als PDF. Android-App bei Google Play, am iPhone im Browser. Gratis: Bis 2 PSA-Artikel; Pro 9,99 € im Monat oder 79,99 € im Jahr.
+
+Sachliche Kurzinfo für Sprachmodelle und Suchdienste. Maßgeblich sind die Angaben auf https://gurtdex.dexware.app/. Anbieter: Dexware (https://dexware.app/), Kontakt: support@dexware.app.
+
+## Was GurtDex macht
+
+- Prüfpunkte nach DGUV G 312-906: Zwölf Punkte, vom Gurtband und seinen Nähten bis zu Karabiner und Kennzeichnung. Je Punkt OK, Mangel oder nicht zutreffend; Mängel stufst du ein: beobachten, instand setzen lassen oder ablegereif.
+- Ablegereife-Wächter: Typ, Seriennummer, Herstellungsdatum und die Gebrauchsdauer laut Hersteller hinterlegen, den Rest übernimmt GurtDex: Sechs Monate vor Ablauf erscheint ein Hinweis am Artikel, ablegereife Artikel färbt es rot.
+- Prüfbericht für Auftraggeber: Mit GPS-Stempel und Beweisfotos, in Pro mit deinem Firmenlogo, für BG, Versicherung oder den Auftraggeber auf der Baustelle. Abgeschlossene Prüfungen bleiben unberührt, ein Storno nur begründet.
+
+## Am PC im Dexware-Dashboard
+
+Was dein Team an Gurten, Falldämpfern und Höhensicherungsgeräten prüft, siehst du im Dexware-Dashboard am Computer — mit demselben Konto, ohne Installation.
+
+- Fällig, gesperrt, ablegereif: Fällige Sachkundigen-Prüfungen, offene Mängel und Artikel über der Gebrauchsdauer auf einer Seite.
+- Prüfbericht-PDF: Je Standort und Zeitraum, mit Checklisten, PSA-Inventar samt Herstellungsdatum und Ablegereife, Mängeln und Fotos.
+- Excel rein und raus: PSA-Artikel aus einer Liste einlesen, Prüfbuch mit Ablegereife und alle Prüfungen als Excel-Datei.
+- Team per Code: Mitarbeiter mit einem Team-Code dazuholen (Pro), Mitglieder sehen und entfernen.
+
+## Für wen
+
+Für Gerüstbau, Dachdecker, Zimmerer, Industriekletterer, SiFa und Bauhöfe.
+
+## Preise
+
+- Gratis (für immer): Bis 2 PSA-Artikel; Checkliste, Ampel, GPS, Fotos; PDF-Prüfbericht mit Wasserzeichen; Cloud-Sync auf allen Geräten
+- Pro: 9,99 € im Monat oder 79,99 € im Jahr. Enthält: Unbegrenzt PSA-Artikel; PDF ohne Wasserzeichen, mit eigenem Logo; Team mit bis zu 20 Mitarbeitern; Prüf-Erinnerung; Prioritäts-Support
+- Stufen nach Teamgröße (ein Abo pro Betrieb, Mitarbeiter treten per Team-Code bei und brauchen kein eigenes Abo):
+  - Pro (bis 20 Mitarbeiter): 9,99 € im Monat · 79,99 € im Jahr
+  - Team (bis 50 Mitarbeiter): 14,99 € im Monat · 119,99 € im Jahr
+  - Team XL (bis 100 Mitarbeiter): 19,99 € im Monat · 159,99 € im Jahr
+  - Unternehmen (über 100 Mitarbeiter): Angebot · auf Rechnung
+- Dexware Suite (Prüf-Paket): alle 9 Prüf-Apps der Suite (GurtDex, ToreDex, GerüstDex, FeuerDex, LeiterDex, RegalDex, PrüfDex, SchutzDex, HebeDex) für 24,99 € im Monat oder 199,99 € im Jahr (entspricht 16,67 € im Monat), ab 3 Prüf-Apps günstiger als einzeln.
+- Preise inkl. MwSt., Abo jederzeit kündbar.
+
+## Kurz beantwortet
+
+- Warum Software für die Auffanggurt-Prüfung statt Prüfkarte aus Papier? Die Papierkarte warnt nicht. GurtDex rechnet mit Herstellungsdatum und Gebrauchsdauer, zeigt vor deren Ablauf einen Hinweis am Artikel und erinnert mit Pro an die Jahresprüfung.
+- Wer darf die jährliche PSAgA-Prüfung durchführen? Ein Sachkundiger für PSA gegen Absturz; Ausbildung und Befähigungsnachweis beschreibt der DGUV Grundsatz 312-906. Manche Höhensicherungsgeräte darf nur der Hersteller oder eine von ihm geschulte Person warten.
+- Was heißt „ablegereif“? Der Artikel darf nicht mehr eingesetzt werden: nach einer Sturzbelastung, bei sicherheitsrelevanten Schäden oder wenn die Gebrauchsdauer laut Hersteller erreicht ist.
+- Sehe ich die Ablegereife auch am Rechner? Ja. Über das Dexware-Dashboard hast du Standorte, Prüfungen, Ablegereife und Prüfberichte auch im Browser.
+- Kann die ganze Kolonne mitprüfen? Ja. Wer per Betriebscode beitritt, dokumentiert unter deinem Betrieb, und jede Prüfung trägt den Namen dessen, der geprüft hat. Pro deckt bis zu 20 Leute ab, größere Betriebe nehmen Team oder Team XL.
+- Was zählt alles zur PSA gegen Absturz? Auffanggurte (EN 361) und Haltegurte (EN 358), Verbindungsmittel und Falldämpfer, Höhensicherungsgeräte, mitlaufende Auffanggeräte, Karabiner und Anschlageinrichtungen, dazu Abseil- und Rettungsgeräte.
+- Alle Antworten: https://gurtdex.dexware.app/#faq
+
+## Seiten
+
+- [Startseite](https://gurtdex.dexware.app/): Funktionen, Preise, häufige Fragen
+- [Preise](https://gurtdex.dexware.app/#preise): Gratis, Pro und Stufen nach Teamgröße
+- [Häufige Fragen](https://gurtdex.dexware.app/#faq)
+- [GurtDex am iPhone](https://gurtdex.dexware.app/#iphone): im Browser, ohne App Store
+- [Dexware-Dashboard](https://dashboard.dexware.app/app/gurtdex): am PC im Browser, mit demselben Konto
+- [Google Play](https://play.google.com/store/apps/details?id=com.gurtdex.app): Android-App
+- [Dexware](https://dexware.app/): alle Apps von Dexware
+
+## Ratgeber
+
+- [Auffanggurt-Prüfung dokumentieren: Prüfkarte & App](https://gurtdex.dexware.app/ratgeber-auffanggurt-pruefkarte.html): Was in die Prüfkarte eines Auffanggurts gehört (DGUV Regel 112-198), wer jährlich prüft, was in Österreich gilt und was eine Prüf-Software leisten sollte.
+- [PSA gegen Absturz prüfen: Fristen, Ablegereife](https://gurtdex.dexware.app/ratgeber-psaga-pruefung.html): Auffanggurt, Verbindungsmittel, Falldämpfer, Höhensicherungsgerät: Wie oft muss PSA gegen Absturz geprüft werden, wer ist Sachkundiger nach DGUV Grundsatz 312-906, wann ist sie abzulegen? Ratgeber mit 12-Punkte-Checkliste und FAQ.
+
+## Rechtliches
+
+- [Impressum](https://gurtdex.dexware.app/impressum.html)
+- [Datenschutz](https://gurtdex.dexware.app/datenschutz.html)
+- [AGB](https://gurtdex.dexware.app/agb.html)
+- [AVV](https://gurtdex.dexware.app/avv.html)
