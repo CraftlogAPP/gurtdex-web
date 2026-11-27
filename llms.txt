@@ -35,6 +35,12 @@ Für Gerüstbau, Dachdecker, Zimmerer, Industriekletterer, SiFa und Bauhöfe.
 - Dexware Suite (Prüf-Paket): alle 9 Prüf-Apps der Suite (GurtDex, ToreDex, GerüstDex, FeuerDex, LeiterDex, RegalDex, PrüfDex, SchutzDex, HebeDex) für 24,99 € im Monat oder 199,99 € im Jahr (entspricht 16,67 € im Monat), ab 3 Prüf-Apps günstiger als einzeln.
 - Preise inkl. MwSt., Abo jederzeit kündbar.
 
+## Was GurtDex nicht ist
+
+- Kein Ersatz für die sachkundige Person: GurtDex unterstützt ausschließlich bei der Dokumentation und ersetzt keine fachliche Beurteilung. Es führt durch die Prüfung und hält sie fest; die Sachkunde bringt die prüfende Person mit.
+- Keine Rechtsberatung: Die Ratgeber von GurtDex geben die Vorschriften allgemein verständlich wieder und ersetzen keine Rechtsberatung.
+- Eine iPhone-App im App Store gibt es noch nicht; am iPhone und iPad läuft GurtDex im Browser (PSA gegen Absturz prüfen — mit Checkliste, Fotos und Unterschrift). QR-Scan, Erinnerungen und einige Extras gibt es vorerst nur in der Android-App.
+
 ## Kurz beantwortet
 
 - Warum Software für die Auffanggurt-Prüfung statt Prüfkarte aus Papier? Die Papierkarte warnt nicht. GurtDex rechnet mit Herstellungsdatum und Gebrauchsdauer, zeigt vor deren Ablauf einen Hinweis am Artikel und erinnert mit Pro an die Jahresprüfung.
